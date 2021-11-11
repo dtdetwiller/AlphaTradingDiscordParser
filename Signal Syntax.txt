@@ -1,0 +1,18 @@
+# All dates must be formatted like this YYYY-MM-DD
+# Must only contain one option/stock per signal
+
+# Option enter signal
+:rotating_light:SIGNAL: @options 
+$NGA 2021-03-15 $17.5 call (filled 1.85)
+
+# Option exit signal
+:rotating_light:EXIT: @options 
+$NGA 2021-03-15 $17.5 call
+
+# Stock enter signal
+:rotating_light:SIGNAL: @stocks
+$NGA shares
+
+# Stock exit signal
+:rotating_light:EXIT: @stocks
+$NGA shares
