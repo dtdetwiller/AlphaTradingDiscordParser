@@ -1,0 +1,423 @@
+<!-- Stock signals page for Anthony -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Anthony's Signals</title>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="df_styles.css"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="/js/my.js"></script>
+    </head>
+    <body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Alpha Trading Group</h1>
+        </div>
+    </div>
+
+    <header>
+    <div class="container">
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="anthony.html">Anthony's Signals</a></li>
+                <li><a href="blacksmoke.html">BlackSmokeMonster's Signals</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <br>
+    <span class="label option">Option Signals</span>
+    <div class="table options">  
+        <table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Ticker</th>
+      <th>Type</th>
+      <th>Strike</th>
+      <th>Expiration</th>
+      <th>Filled</th>
+      <th>Current Premium</th>
+      <th>P/L</th>
+      <th>Date Signaled</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$OSTK</td>
+      <td>Call</td>
+      <td>90</td>
+      <td>2021-03-19</td>
+      <td>7.9</td>
+      <td>1.43</td>
+      <td class="negative">-647</td>
+      <td>2020-11-30</td>
+    </tr>
+    <tr>
+      <td>$PLTR</td>
+      <td>Call</td>
+      <td>35</td>
+      <td>2022-01-21</td>
+      <td>6.25</td>
+      <td>5.95</td>
+      <td class="negative">-29</td>
+      <td>2020-12-02</td>
+    </tr>
+    <tr>
+      <td>$TLRY</td>
+      <td>Call</td>
+      <td>15</td>
+      <td>2021-01-15</td>
+      <td>.78</td>
+      <td>0.04</td>
+      <td class="negative">-74</td>
+      <td>2020-12-03</td>
+    </tr>
+    <tr>
+      <td>$BBY</td>
+      <td>Call</td>
+      <td>115</td>
+      <td>2021-01-15</td>
+      <td>1.9</td>
+      <td>0.14</td>
+      <td class="negative">-175</td>
+      <td>2020-12-04</td>
+    </tr>
+    <tr>
+      <td>$MARA</td>
+      <td>Call</td>
+      <td>7.5</td>
+      <td>2021-03-19</td>
+      <td>2.25</td>
+      <td>4.70</td>
+      <td class = "positive">245</td>
+      <td>2020-12-04</td>
+    </tr>
+    <tr>
+      <td>$MGNI</td>
+      <td>Call</td>
+      <td>22.5</td>
+      <td>2021-06-18</td>
+      <td>3.8</td>
+      <td>12.10</td>
+      <td class = "positive">830</td>
+      <td>2020-12-09</td>
+    </tr>
+    <tr>
+      <td>$QQQJ</td>
+      <td>Call</td>
+      <td>31</td>
+      <td>2021-03-19</td>
+      <td>1.3</td>
+      <td>1.50</td>
+      <td class = "positive">19</td>
+      <td>2020-12-14</td>
+    </tr>
+    <tr>
+      <td>$BABA</td>
+      <td>Call</td>
+      <td>300</td>
+      <td>2021-04-16</td>
+      <td>7.4</td>
+      <td>3.25</td>
+      <td class="negative">-415</td>
+      <td>2020-12-14</td>
+    </tr>
+    <tr>
+      <td>$PTON</td>
+      <td>Put</td>
+      <td>90</td>
+      <td>2021-03-19</td>
+      <td>3.7</td>
+      <td>1.48</td>
+      <td class="negative">-222</td>
+      <td>2020-12-15</td>
+    </tr>
+    <tr>
+      <td>$FUV</td>
+      <td>Call</td>
+      <td>20</td>
+      <td>2021-04-16</td>
+      <td>2.5</td>
+      <td>2.15</td>
+      <td class="negative">-35</td>
+      <td>2020-12-16</td>
+    </tr>
+    <tr>
+      <td>$GOEV</td>
+      <td>Call</td>
+      <td>25</td>
+      <td>2021-01-15</td>
+      <td>2.4</td>
+      <td>0.15</td>
+      <td class="negative">-225</td>
+      <td>2020-12-16</td>
+    </tr>
+    <tr>
+      <td>$TRIT</td>
+      <td>Call</td>
+      <td>10</td>
+      <td>2021-08-20</td>
+      <td>2.5</td>
+      <td>4.00</td>
+      <td class = "positive">150</td>
+      <td>2020-12-17</td>
+    </tr>
+    <tr>
+      <td>$GOLD</td>
+      <td>Call</td>
+      <td>30</td>
+      <td>2021-03-19</td>
+      <td>.38</td>
+      <td>0.26</td>
+      <td class="negative">-12</td>
+      <td>2020-12-17</td>
+    </tr>
+    <tr>
+      <td>$BLOK</td>
+      <td>Call</td>
+      <td>34</td>
+      <td>2021-08-20</td>
+      <td>2.9</td>
+      <td>5.40</td>
+      <td class = "positive">250</td>
+      <td>2020-12-17</td>
+    </tr>
+    <tr>
+      <td>$FSLY</td>
+      <td>Call</td>
+      <td>120</td>
+      <td>2021-01-22</td>
+      <td>3.6</td>
+      <td>0.45</td>
+      <td class="negative">-315</td>
+      <td>2020-12-17</td>
+    </tr>
+    <tr>
+      <td>$SKLZ</td>
+      <td>Call</td>
+      <td>30</td>
+      <td>2021-12-17</td>
+      <td>5.7</td>
+      <td>5.30</td>
+      <td class="negative">-40</td>
+      <td>2020-12-17</td>
+    </tr>
+    <tr>
+      <td>$CLNE</td>
+      <td>Call</td>
+      <td>10</td>
+      <td>2021-03-19</td>
+      <td>.60</td>
+      <td>1.40</td>
+      <td class = "positive">80</td>
+      <td>2020-12-21</td>
+    </tr>
+    <tr>
+      <td>$GS</td>
+      <td>Call</td>
+      <td>260</td>
+      <td>2021-01-08</td>
+      <td>3.5</td>
+      <td>7.25</td>
+      <td class = "positive">375</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$HYRE</td>
+      <td>Call</td>
+      <td>10</td>
+      <td>2021-04-16</td>
+      <td>1.5</td>
+      <td>1.05</td>
+      <td class="negative">-44</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$LGVW</td>
+      <td>Call</td>
+      <td>17.5</td>
+      <td>2021-04-16</td>
+      <td>6.2</td>
+      <td>5.90</td>
+      <td class="negative">-29</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$NGA</td>
+      <td>Call</td>
+      <td>17.5</td>
+      <td>2021-04-16</td>
+      <td>5.1</td>
+      <td>5.68</td>
+      <td class = "positive">58</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$RMG</td>
+      <td>Call</td>
+      <td>30</td>
+      <td>2021-01-15</td>
+      <td>2.8</td>
+      <td>3.50</td>
+      <td class = "positive">70</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$XL</td>
+      <td>Call</td>
+      <td>30</td>
+      <td>2021-01-15</td>
+      <td>3.85</td>
+      <td>1.60</td>
+      <td class="negative">-225</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$SRNE</td>
+      <td>Call</td>
+      <td>15</td>
+      <td>2021-03-19</td>
+      <td>.68</td>
+      <td>0.32</td>
+      <td class="negative">-36</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$RMG</td>
+      <td>Call</td>
+      <td>30</td>
+      <td>2021-01-15</td>
+      <td>2.8</td>
+      <td>3.50</td>
+      <td class = "positive">70</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$CLNE</td>
+      <td>Call</td>
+      <td>15</td>
+      <td>2021-06-18</td>
+      <td>1.75</td>
+      <td>1.35</td>
+      <td class="negative">-39</td>
+      <td>2020-12-23</td>
+    </tr>
+    <tr>
+      <td>$SWCH</td>
+      <td>Call</td>
+      <td>25</td>
+      <td>2023-01-20</td>
+      <td>1.4</td>
+      <td>1.22</td>
+      <td class="negative">-17</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$NNDM</td>
+      <td>Call</td>
+      <td>10</td>
+      <td>2021-05-21</td>
+      <td>2.96</td>
+      <td>3.50</td>
+      <td class = "positive">54</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$DM</td>
+      <td>Call</td>
+      <td>20</td>
+      <td>2021-02-19</td>
+      <td>2.25</td>
+      <td>1.40</td>
+      <td class="negative">-85</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$DPW</td>
+      <td>Call</td>
+      <td>5</td>
+      <td>2021-06-18</td>
+      <td>2.4</td>
+      <td>2.46</td>
+      <td class = "positive">6</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$FLNT</td>
+      <td>Call</td>
+      <td>7.5</td>
+      <td>2021-06-18</td>
+      <td>1.3</td>
+      <td>1.10</td>
+      <td class="negative">-19</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$LI</td>
+      <td>Call</td>
+      <td>28</td>
+      <td>2021-02-05</td>
+      <td>3.55</td>
+      <td>6.70</td>
+      <td class = "positive">315</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$SRNE</td>
+      <td>Call</td>
+      <td>13</td>
+      <td>2021-06-18</td>
+      <td>1.75</td>
+      <td>1.20</td>
+      <td class="negative">-55</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$IDEX</td>
+      <td>Call</td>
+      <td>5</td>
+      <td>2023-01-20</td>
+      <td>1.7</td>
+      <td>1.25</td>
+      <td class="negative">-44</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$CLSK</td>
+      <td>Call</td>
+      <td>35</td>
+      <td>2021-03-19</td>
+      <td>5.65</td>
+      <td>5.00</td>
+      <td class="negative">-65</td>
+      <td>2020-12-28</td>
+    </tr>
+    <tr>
+      <td>$MP</td>
+      <td>Call</td>
+      <td>40</td>
+      <td>2021-03-19</td>
+      <td>3.2</td>
+      <td>3.30</td>
+      <td class = "positive">9</td>
+      <td>2020-12-29</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+    <span class="label stocks">Stock Signals</span>
+    <div class="table stocks">
+    </div>
+    </body>
+</html>
+    
